@@ -7,12 +7,11 @@
 using namespace std;
 
  
-
+ int** edge;
  int vexNum;//景区数量
  VexInfo* vexinfo;//储存景区名字
- int** edge;
 
-   ii
+
 int createGraph()
 {
 	 
