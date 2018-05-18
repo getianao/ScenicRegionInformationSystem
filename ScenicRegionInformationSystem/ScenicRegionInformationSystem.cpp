@@ -1,6 +1,7 @@
 #include<iostream>
 #include"createGraph.h"
 #include"queryInfo.h"
+#include"guide.h"
 using namespace std;
 int main()
 {
@@ -20,6 +21,7 @@ int main()
 		{
 			case 1:
 			{
+				cout << "~~创建景区景点图~~" << endl;
 				if (outputGraphInfo() == 1)
 				{
 					cout << "创建景区景点图失败" << endl<<endl;
@@ -29,6 +31,7 @@ int main()
 			}
 			case 2:
 			{
+				cout << "~~查询景点信息~~" << endl;
 				if (queryInfo() == 1)
 				{
 					cout << "查询景点信息失败" << endl << endl;;
@@ -38,7 +41,9 @@ int main()
 
 			case 3:
 			{
-
+					cout << "~~旅游景点导航~~" << endl;
+				if (guide() == 1)
+					cout << "生成旅游景点导航失败" << endl;
 				break;
 			}
 

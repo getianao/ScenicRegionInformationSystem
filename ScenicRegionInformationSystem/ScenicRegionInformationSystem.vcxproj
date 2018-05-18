@@ -148,12 +148,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="createGraph.cpp" />
+    <ClCompile Include="guide.cpp" />
     <ClCompile Include="queryInfo.cpp" />
     <ClCompile Include="ScenicRegionInformationSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="createGraph.h" />
+    <ClInclude Include="guide.h" />
     <ClInclude Include="queryInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Edge.txt" />
+    <Text Include="Vex.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
