@@ -2,6 +2,8 @@
 #include"createGraph.h"
 #include"queryInfo.h"
 #include"guide.h"
+#include"shortestTour.h"
+
 using namespace std;
 int main()
 {
@@ -41,7 +43,7 @@ int main()
 
 			case 3:
 			{
-					cout << "~~旅游景点导航~~" << endl;
+				cout << "~~旅游景点导航~~" << endl;
 				if (guide() == 1)
 					cout << "生成旅游景点导航失败" << endl;
 				break;
@@ -49,7 +51,9 @@ int main()
 
 			case 4:
 			{
-
+				cout << "~~搜索最短路径~~" << endl;
+				if (shortestTour() == 1)
+					cout << "搜索最短路径失败" << endl;
 				break;
 			}
 			case 5:

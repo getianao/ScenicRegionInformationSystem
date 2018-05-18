@@ -47,7 +47,12 @@ int createGraph()
 
 	for (int i = 0; i < vexNum; i++)//初始化道路信息，-1表示不相连
 		for (int j = 0; j < vexNum; j++)
-			edge[i][j] = -1;
+		{
+			if(i==j)
+				edge[i][j] = 0;
+			else
+				edge[i][j] = -1;
+		}
 
 	int areaA,areaB,ABdistance;
 	while(finEdge>> areaA)
