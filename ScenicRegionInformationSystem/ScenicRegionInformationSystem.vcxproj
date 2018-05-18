@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="createGraph.cpp" />
     <ClCompile Include="guide.cpp" />
+    <ClCompile Include="linePlan.cpp" />
     <ClCompile Include="queryInfo.cpp" />
     <ClCompile Include="ScenicRegionInformationSystem.cpp" />
     <ClCompile Include="shortestTour.cpp" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClInclude Include="createGraph.h" />
     <ClInclude Include="guide.h" />
+    <ClInclude Include="linePlan.h" />
     <ClInclude Include="queryInfo.h" />
     <ClInclude Include="shortestTour.h" />
   </ItemGroup>

@@ -30,6 +30,9 @@
     <ClCompile Include="shortestTour.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="linePlan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="createGraph.h">
@@ -42,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="shortestTour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linePlan.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

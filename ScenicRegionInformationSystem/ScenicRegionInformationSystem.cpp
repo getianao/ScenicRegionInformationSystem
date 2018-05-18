@@ -3,6 +3,7 @@
 #include"queryInfo.h"
 #include"guide.h"
 #include"shortestTour.h"
+#include"linePlan.h"
 
 using namespace std;
 int main()
@@ -58,7 +59,9 @@ int main()
 			}
 			case 5:
 			{
-
+				cout << "~~铺设电路规划~~" << endl;
+				if (linePlan() == 1)
+					cout << "生成铺设电路规划失败" << endl;
 				break;
 			}
 			case 0:
